@@ -1,0 +1,26 @@
+@import "globals.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat',sans-serif !important;
+    height: 100%;
+}
+
+.quote-btn{
+  margin: 5px 15px 5px 0px;
+  background-color: transparent;
+  border: 3px solid !important;
+}
+.twitter-btn{
+  background-color: transparent;
+  border: 3px solid !important;
+}
+
+.quote-btn:hover , .twitter-btn:hover{
+  outline: none;
+  border: 3px solid !important;
+  background-color: #f8fefc;
+  color: #18191b;
+}
